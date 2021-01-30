@@ -9,3 +9,10 @@ colorscheme desert
 inoremap kj <ESC>
 set backspace=indent,eol,start
 set autochdir
+
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set softtabstop=4
+set shiftround
+set autoindent
