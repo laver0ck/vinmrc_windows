@@ -5,16 +5,19 @@ language messages en_US.UTF-8
 :set fileencoding=utf8
 syntax on
 colorscheme desert
-filetype plugin indent on
 
 inoremap kj <ESC>
 set backspace=indent,eol,start
 set autochdir
 
+" default
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
 set expandtab
 set shiftround
 set autoindent
+
+" python, 4 spaces/tab
+autocmd FileType python setlocal ts=4 sw=4 sts=0
 
