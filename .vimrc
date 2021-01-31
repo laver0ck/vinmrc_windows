@@ -5,14 +5,16 @@ language messages en_US.UTF-8
 :set fileencoding=utf8
 syntax on
 colorscheme desert
+filetype plugin indent on
 
 inoremap kj <ESC>
 set backspace=indent,eol,start
 set autochdir
 
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
 set expandtab
-set softtabstop=4
 set shiftround
 set autoindent
+
